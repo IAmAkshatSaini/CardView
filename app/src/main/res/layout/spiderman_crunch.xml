@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techoflip.navdemo.cardview.Chest_Shoulder_Exercise">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/pushups"
+           android:src="@drawable/spiderman_crunches"
+
+           />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/aboutpushups0"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/bg2"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text=" 20 reps each side"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/procedure"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#78909c"
+        android:id="@+id/procedure"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/aboutpushups"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:lineSpacingExtra="10dp"
+        android:textSize="18sp"
+        android:textColor="#1e88e5"
+        android:layout_marginBottom="20dp"
+        android:text="@string/spiderman_crunch"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/trainer_tips_1"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#78909c"
+        android:id="@+id/trainer"/>
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

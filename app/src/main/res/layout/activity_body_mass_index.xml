@@ -1,0 +1,113 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg2"
+    android:orientation="vertical">
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_hasFocus="false"
+        android:paddingLeft="35dp"
+        app:mtf_image="@drawable/ic_email_white_24dp"
+        app:mtf_openKeyboardOnFocus="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="inches"
+            android:maxLines="1"
+            android:id="@+id/height"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="15sp"
+            android:inputType="number"
+            />
+
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_hasFocus="false"
+        app:mtf_image="@drawable/ic_email_white_24dp"
+        app:mtf_openKeyboardOnFocus="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Weight"
+            android:maxLines="1"
+            android:inputType="number"
+            android:id="@+id/weight"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="15sp"
+            android:ems="300"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_hasFocus="false"
+        app:mtf_image="@drawable/ic_email_white_24dp"
+        app:mtf_openKeyboardOnFocus="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:maxLines="1"
+            android:id="@+id/age"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="15sp"
+            android:inputType="number"
+            android:ems="105"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:paddingTop="20dp"
+        >
+
+        <at.markushi.ui.CircleButton
+            android:layout_width="75dip"
+            android:layout_height="75dip"
+            android:src="@drawable/ic_action_tick"
+            android:id="@+id/button"
+            app:cb_pressedRingWidth="8dip" />
+
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="result"
+        android:textSize="20sp"
+        android:background="@color/bg"
+        android:alpha=".5"
+        android:id="@+id/result"
+        android:layout_marginLeft="100dp"/>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techoflip.navdemo.cardview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/appname1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".BodyBuilderActivity" />
+        <activity android:name=".FitnessActivity" />
+        <activity android:name=".LoseWeightActivity" />
+        <activity android:name=".BodyMassIndex" />
+        <activity
+            android:name=".Chest_Shoulder_Exercise"
+            android:label="@string/title_activity_chest_shoulder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cardio"
+            android:label="@string/title_activity_cardio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Arm_Back"
+            android:label="@string/title_activity_arm__back"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Legs_And_Abs"
+            android:label="@string/title_activity_legs__and__abs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Back_Shoulder_Abs"
+            android:label="@string/title_activity_back__shoulder__abs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Legs_Abs1"
+            android:label="@string/title_activity_legs__abs1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chest_Arms"
+            android:label="@string/title_activity_chest__arms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chest"
+            android:label="@string/title_activity_fittness"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shoulder"
+            android:label="@string/title_activity_shoulder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Legs_Abs3"
+            android:label="@string/title_activity_legs__abs3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Back"
+            android:label="@string/title_activity_back"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Arms"
+            android:label="@string/title_activity_arms"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

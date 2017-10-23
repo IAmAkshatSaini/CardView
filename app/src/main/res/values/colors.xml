@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4f63d2</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellow">#b3e5fc</color>
+    <color name="yellow1">#d7feffff</color>
+    <color name="yellow2">#4fc3f7</color>
+    <color name="yellow3">#29b6f6</color>
+    <color name="yellow4">#03a9f4</color>
+    <color name="yellow5">#039be5</color>
+    <color name="yellow6">#0288d1</color>
+    <color name="cyan">#b2ebf2</color>
+    <color name="cyan1">#80deea</color>
+    <color name="cyan2">#4dd0e1</color>
+    <color name="cyan3">#26c6da</color>
+    <color name="cyan4">#00bcd4</color>
+    <color name="cyan5">#00acc1</color>
+    <color name="cyan6">#05cce1</color>
+    <color name="teal">#b2dfdb</color>
+    <color name="teal1">#80cbc4</color>
+    <color name="teal2">#4db6ac</color>
+    <color name="teal3">#26a69a</color>
+    <color name="teal4">#009688</color>
+    <color name="teal5">#00897b</color>
+    <color name="teal6">#00796b</color>
+    <color name="blue">#d0d9ff</color>
+    <color name="blue1">#afbfff</color>
+    <color name="blue2">#91a7ff</color>
+    <color name="blue3">#738ffe</color>
+    <color name="blue4">#5677fc</color>
+    <color name="blue5">#4e6cef</color>
+    <color name="blue6">#455ede</color>
+    <color name="bg">#cfd8dc</color>
+    <color name="bg1">#b0bec5</color>
+    <color name="bg2">#90a4ae</color>
+    <color name="bg3">#78909c</color>
+    <color name="bg4">#607d8b</color>
+    <color name="bg5">#546e7a</color>
+    <color name="bg6">#455a64</color>
+
+
+
+</resources>
